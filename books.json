@@ -1,0 +1,14 @@
+
+
+{ "books": [{
+    "title": "Infinite Jest",
+    "firstname": "David Foster",
+    "lastname": "Wallace",
+    "year": 1996
+  }, {
+    "title": "Moby Dick",
+    "firstname": "Herman",
+    "lastname": "Melville",
+    "year": 1851
+  }]
+}
