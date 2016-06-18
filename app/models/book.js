@@ -5,6 +5,6 @@ export default DS.Model.extend({
   title: DS.attr(),
   firstname: DS.attr(),
   lastname: DS.attr(),
-  year: DS.attr()
-
+  year: DS.attr(),
+  reviews: DS.hasMany('review', { async: true })
 });

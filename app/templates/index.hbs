@@ -3,7 +3,7 @@
     <h3>This Week's Featured Book Reviews</h3>
     <br>
     <ul>
-      {{#each model as |book|}}
+      {{#each model.books as |book|}}
         {{book-tile book=book}}
       {{/each}}
     </ul>
