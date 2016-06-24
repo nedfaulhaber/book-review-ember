@@ -1,8 +1,10 @@
 <h2>Reviews of {{model.title}}</h2>
 <h4>by {{model.firstname}} {{model.lastname}}</h4>
-
+<br>
 {{#each model.reviews as |review|}}
-  <!-- {{review display here}} -->
+  <p><strong>Username: </strong> {{review.username}} </p>
+  <p><strong>Comments: </strong><br> {{review.comments}} </p>
+  <hr>
 {{/each}}
 
-{{new-review-form saveNewReview2="saveNewReview3" review=model}}
+{{new-review-form saveNewReview2="saveNewReview3" book=model}}
