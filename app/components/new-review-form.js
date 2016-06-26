@@ -10,7 +10,7 @@ export default Ember.Component.extend({
 
     saveNewReview1() {
       var params = {
-        rating: this.get('rating'),
+        rating: parseInt(this.get('rating')),
         comments: this.get('comments'),
         username: this.get('username'),
         book: this.get('book'),

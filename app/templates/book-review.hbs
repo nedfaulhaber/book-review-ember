@@ -2,8 +2,11 @@
 <h4>by {{model.firstname}} {{model.lastname}}</h4>
 <br>
 {{#each model.reviews as |review|}}
+  {{rating-symbol review}}
+  <p><strong>Rating: </strong> {{review.rating}} </p>
   <p><strong>Username: </strong> {{review.username}} </p>
   <p><strong>Comments: </strong><br> {{review.comments}} </p>
+
   <hr>
 {{/each}}
 
