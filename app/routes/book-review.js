@@ -13,7 +13,7 @@ export default Ember.Route.extend({
       newReview.save().then(function() {
         return book.save();
       });
-      this.transitionTo('book-review');
+      this.transitionTo('book-review', params.id);
     },
   }
 });
