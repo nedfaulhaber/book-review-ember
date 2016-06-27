@@ -1,0 +1,11 @@
+<div class="container">
+  <h2>Who Do You Love?</h2>
+  <h4>Build a List</h4>
+
+  <ul>
+    {{#each model as |book|}}
+      {{choice-tile book=book}}
+    {{/each}}
+  </ul>
+  
+</div>

@@ -6,5 +6,9 @@ export default Ember.Service.extend({
   add(choice) {
     this.get('choices').pushObject(choice);
 
-  }
+  },
+
+  remove(choice) {
+    this.get('choices').removeObject(choice);
+  },
 });
