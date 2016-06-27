@@ -1,14 +1,14 @@
 import Ember from 'ember';
 
 export default Ember.Service.extend({
-  choices: [],
+  items: [],
 
-  add(choice) {
-    this.get('choices').pushObject(choice);
+  add(item) {
+    this.get('items').pushObject(item);
 
   },
 
-  remove(choice) {
-    this.get('choices').removeObject(choice);
+  remove(item) {
+    this.get('items').removeObject(item);
   },
 });

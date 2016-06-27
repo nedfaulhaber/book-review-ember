@@ -1,4 +1,7 @@
-{{#each favoritesList.choices as |choice|}}
-  {{choice.title}}<br>
-  {{fullName}}
-{{/each}}
+<h2>Your Favs</h2>
+<ol>
+  {{#each favoritesList.items as |item|}}
+    <li><h4>{{item.title}}</h4>
+    {{item.firstname}} {{item.lastname}}</li>
+  {{/each}}
+</ol>
