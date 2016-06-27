@@ -1,9 +1,6 @@
 
 <h4>{{#link-to 'book-review' book.id}}{{book.title}}{{/link-to}}</h4>
-<p>
-  Author: {{book.firstname}} {{book.lastname}}
-  <br>
-</p>
-<br>
+<p>Author: {{book.firstname}} {{book.lastname}}</p>
+
 <button {{action 'addToList' book}}>Add to List</button>
-<button {{action 'removeFromList' book}}>Remove from List</button>
+<hr>
