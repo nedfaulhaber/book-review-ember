@@ -1,53 +1,41 @@
-# Book-review
+# _Ember Extended Book Review Site_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### By Ned Faulhaber
 
-## Prerequisites
+## Description
 
-You will need the following things properly installed on your computer.
+_This project was for Epicodus JavaScript class and was designed to practice Ember, specifically helpers, computed properties, and services.  The project allows users to post books for review, add reviews for each, and create a list of their favorite books._
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+## Setup/Installation Requirements
 
-## Installation
+* _Clone this repository._
+* _Install Node.js_
+* _Install globals if needed (npm install -g, npm install bower -g)_
+* _In the terminal, run:_
+* _npm install_
+* _bower install_
+* _ember s_
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
 
-## Running / Development
+## Known Bugs
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+_Though this is not a problem when navigating the site via the navbar, refreshing the book-review and favorites pages will remove glyphicons (book-review) and the list of favorite books (favorites).  These will return to view if you navigate to the home page and access them via the navbar._
 
-### Code Generators
+## Support and contact details
 
-Make use of the many generators for code, try `ember help generate` for more details
+_{If you encounter any other bugs with this project, please email me at nedfaulhaber@gmail.com.}_
 
-### Running Tests
+## Technologies Used
 
-* `ember test`
-* `ember test --server`
+* _HTML and CSS_
+* _npm_
+* _bower_
+* _JavaScript_
+* _Ember_
+* _Bootstrap_
 
-### Building
+### License
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+*This software is licensed under the MIT license.*
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Copyright (c) 2016 *_Ned Faulhaber_**
